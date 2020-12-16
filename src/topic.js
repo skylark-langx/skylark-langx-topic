@@ -2,7 +2,7 @@ define([
 	"skylark-langx-ns",
 	"skylark-langx-events"
 ],function(skylark,events){
-	var hub = new events.Evented();
+	var hub = new events.Emitter();
 
 	return skylark.attach("langx.topic",{
 	    publish: function(name, arg1,argn) {
