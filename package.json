@@ -25,7 +25,7 @@
     "./*": "./dist/uncompressed/skylark-langx-topic/*.js"
   },
   "dependencies": {
-    "skylark-langx-emitter": "https://github.com/skylark-langx/skylark-langx-emitter.git",
+    "skylark-langx-events": "https://github.com/skylark-langx/skylark-langx-events.git",
     "skylark-langx-ns": "https://github.com/skylark-langx/skylark-langx-ns.git"
   },
   "engines": {
